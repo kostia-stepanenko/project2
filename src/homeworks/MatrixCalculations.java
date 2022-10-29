@@ -61,6 +61,7 @@ public class MatrixCalculations {
             System.err.println("Error for matrix multiplication");
             return null;
         }
+        
         int size = a.length;
         int[][] res = new int[size][size];
 
