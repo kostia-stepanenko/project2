@@ -2,6 +2,7 @@ package homeworks;
 
 import java.util.Arrays;
 
+// https://curs.upb.ro/2022/pluginfile.php/321351/mod_resource/content/0/HW4_PL.pdf
 public class MatrixCalculations {
 
     public static void main(String[] args) {
@@ -61,7 +62,7 @@ public class MatrixCalculations {
             System.err.println("Error for matrix multiplication");
             return null;
         }
-        
+
         int size = a.length;
         int[][] res = new int[size][size];
 

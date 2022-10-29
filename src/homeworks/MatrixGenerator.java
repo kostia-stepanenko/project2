@@ -2,6 +2,7 @@ package homeworks;
 
 import java.util.Arrays;
 
+// https://curs.upb.ro/2022/pluginfile.php/321351/mod_resource/content/0/HW4_PL.pdf
 public class MatrixGenerator {
     public static void main(String[] args) {
 
