@@ -28,7 +28,9 @@ class Solution1 {
 
         StringBuilder res = new StringBuilder();
 
-        for(char ch : DNA.toCharArray()){
+        for(int i =0; i < DNA.length(); i++){
+            char ch = DNA.charAt(i);
+
             if(ch == 'A'){
                 res.append(ch).append(ch);
             }
@@ -43,6 +45,6 @@ class Solution1 {
         // Write an answer using System.out.println()
         // To debug: System.err.println("Debug messages...");
 
-        System.out.println(res.toString());
+        System.out.println(res);
     }
 }
