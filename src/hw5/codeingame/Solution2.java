@@ -1,4 +1,4 @@
-package codeingame;
+package hw5.codeingame;
 
 import java.util.*;
 
