@@ -1,8 +1,6 @@
 package codeingame;
 
 import java.util.*;
-import java.io.*;
-import java.math.*;
 
 /**
  * Given a String that contains only characters: A, T, G, C
@@ -18,6 +16,12 @@ import java.math.*;
  **/
 class Solution1 {
 
+    /**
+     * Example:
+     *
+     * INPUT: ATGGCAT
+     * OUTPUT: AATTTCAATTT
+     */
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         String DNA = in.nextLine();
