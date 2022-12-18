@@ -6,6 +6,7 @@ public class TestLineSub {
     public static void main(String[] args) {
 
         LineSub l2 = new LineSub(0, 0, 3, 4);
+
         System.out.println(l2);
         System.out.println("Length of line: " + l2.getLengthSub());
         System.out.printf("Gradient of line: %.2f\n", l2.getGradientSub());

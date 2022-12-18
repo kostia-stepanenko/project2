@@ -18,6 +18,7 @@ public class LineSub extends Point {
     //public methods
     // getX and getY are inherited from Point
 
+    @Override
     public String toString() {
         return "SubLine :(" + super.toString() + end + ')';
     }
@@ -53,6 +54,15 @@ public class LineSub extends Point {
     }
 
     public void setBeginY(int y) {
+        super.setY(y);
+    }
+
+    public void setBeginXAndY(Point point){
+        super.setX(point.getX());
+        super.setY(point.getY());
+    }
+    public void setBeginXAndY(int x, int y){
+        super.setX(x);
         super.setY(y);
     }
 
