@@ -82,7 +82,7 @@ public class Warehouse {
         List<ProductWarehouse> matched = new ArrayList<>();
 
         for (ProductWarehouse p : allProducts) {
-            if (p.getCountry().equals(country) && p.getPrice() >= minPrice && p.getPrice() <= maxPrice) {
+        /* use .equals to compare the objects and Strings */    if (p.getCountry().equals(country) && p.getPrice() >= minPrice && p.getPrice() <= maxPrice) {
                 matched.add(p);
             }
         }
