@@ -70,7 +70,7 @@ public class Farm {
         addAnimal("chicken", 1.5);
         addAnimal("pig", 88.0);
         addAnimal("goat", 77.0);
-        addAnimal(null, 77.0);
+      //  addAnimal(null, 77.0);
 
 
         System.out.println("All animals");
@@ -78,8 +78,10 @@ public class Farm {
 
         double money = sellAnimal("Cow", 10.99);
         money += sellAnimal("sheep", 20.99);
-        money += sellAnimal("sheep", -20.99);
-        money += sellAnimal("frog", 30.99);
+
+      // money += sellAnimal("sheep", -20.99);
+     //  money += sellAnimal("frog", 30.99);
+
 
         System.out.printf("%n money: %.2f RON %n%n", money);
 

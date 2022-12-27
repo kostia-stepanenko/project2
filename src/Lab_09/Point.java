@@ -1,6 +1,6 @@
 package Lab_09;
 
-public class Point {
+public class Point implements Default_position {
 
     private int x;
     private int y;
@@ -37,7 +37,16 @@ public class Point {
     public String toString() {
         return "point[" + x + ", " + y + "]";
     }
+//override for interface-implemented methods is not necessary.
+    @Override
+    public void reset() {
+        this.x=0;
+        this.y=0;
+    }
 
+
+    //test point has nothing to do with point class,
+    // any inheritance uses only point class data.
     public static class Testpoint {
         public static void main(String[] args) {
             Point p1 = new Point(10, 20);

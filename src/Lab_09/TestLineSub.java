@@ -24,5 +24,6 @@ public class TestLineSub {
         System.out.println(l4);
         System.out.println("Length of line: " + l4.getLengthSub());
         System.out.printf("Gradient of line: %.2f\n",  l4.getGradientSub());
+
     }
 }

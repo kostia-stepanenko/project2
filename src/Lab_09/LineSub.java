@@ -1,6 +1,6 @@
 package Lab_09;
 
-public class LineSub extends Point {
+public class LineSub extends Point  {
 
     private Point end;
 
@@ -11,8 +11,8 @@ public class LineSub extends Point {
     }
 
 
-    public LineSub(Point begin1, Point end) {
-        super(begin1.getX(), begin1.getY());
+    public LineSub(Point begin, Point end) {
+        super(begin.getX(), begin.getY());
         this.end = end;
     }
     //public methods
