@@ -1,17 +1,17 @@
 package LinkedIn_tests;
 
-public class Employee {
-    private String name;
-    private double salary;
+public class Employee extends Human {
+
+    protected double salary;
     private String location;
-    private int age;
+
 
 
     public Employee(String name, double salary, String location, int age) {
-        this.name = name;
+        super(name,age);
         this.salary = salary;
         this.location = location;
-        this.age = age;
+
     }
     public  double raiseSalary(){
         this.salary=salary+20;
