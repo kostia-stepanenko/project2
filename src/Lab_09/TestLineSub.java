@@ -5,6 +5,10 @@ public class TestLineSub {
 
     public static void main(String[] args) {
 
+        Point p123 = new Point(0, 0);
+        System.out.println(p123.toString());
+
+
         LineSub l2 = new LineSub(0, 0, 3, 4);
 
         System.out.println(l2);
