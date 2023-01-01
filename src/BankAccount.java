@@ -29,21 +29,20 @@ public class BankAccount {
 
     @Override
     public String toString() {
-        return "BankAccount{" +
+        return "BankAccount" +
                 "name='" + name + '\'' +
                 ", balance=" + balance +
-                ", fee=" + fee +
-                '}';
+                ",used fee=" + fee ;
     }
 
     public static void main(String[] args) {
 
-        BankAccount b1 = new BankAccount("Maksym", 0.0, 5.00);
+        BankAccount b1 = new BankAccount("Maksym", 20.0, 5.00);
         b1.withdraw();
 
 
 //        BankAccount b2 = new BankAccount("James Raynor", 400.00, 100.00);
-//        System.out.println(b1);
+       System.out.println(b1);
 //        b1.withdraw();
 //        System.out.println("After withdraw");
 //        System.out.println(b1);
