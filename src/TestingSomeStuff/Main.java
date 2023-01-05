@@ -8,6 +8,8 @@ public class Main  {
 
     public static void main (String[] args)
     {
+
+        //messing with values and to string
         int x = 42;
         String fromX=Integer.toString(x);
         boolean b1 = false;
@@ -17,6 +19,15 @@ public class Main  {
         String fromLong= formatter.format(l1);
         //System.out.println(fromLong);
 
+
+
+
+//String builder fun
+       // StringBuilder sb1 = new StringBuilder("Hello there");
+       // sb1.append(",");
+       // sb1.append("why are you here");
+        //sb1.append("?");
+      //  System.out.println(sb1);
 
         SecondaryClass secondClassPoint =new SecondaryClass(11,20,5);
         //assigning an enumerator
