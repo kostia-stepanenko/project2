@@ -11,6 +11,7 @@ public class ListOfCommands
 
 
        public static void main (String[] args) {
+
            /**messing with values and to_string**/
            int x = 42;
            String fromX = Integer.toString(x);
@@ -31,7 +32,8 @@ public class ListOfCommands
            //  System.out.println(sb1);
            //sb1.delete(0,sb1.length());
 
-           /** a loop to use a scanner to add components to a string-builder in real time**/
+           /** a loop to use a scanner to add components to a string-builder in real time,
+            * you can input any strings I times and then get one string as a sum of all previous ones **/
            //for(int i =0;i<3;i++)
            // {
            // input = sc1.nextLine();
