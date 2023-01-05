@@ -22,7 +22,7 @@ public class ListOfCommands
            //System.out.println(fromLong);
 
 
-/**String builder fun**/
+/**String builder and scanner use**/
 
            // StringBuilder sb1 = new StringBuilder("Hello there");
            // sb1.append(",");
@@ -31,13 +31,19 @@ public class ListOfCommands
            //  System.out.println(sb1);
            //sb1.delete(0,sb1.length());
 
+           /** a loop to use a scanner to add components to a string-builder in real time**/
+           //for(int i =0;i<3;i++)
+           // {
+           // input = sc1.nextLine();
+           // sb.append(input+"n\")
+           // }
 
-           /**Scanner use**/
 
+           /** use of scanner**/
            //Scanner sc1 = new Scanner(System.in);
            // System.out.println("Input value");
            // String input = sc1.nextLine();
-           //System.out.println(input);
+
 
 
            /**Iteration loop**/
