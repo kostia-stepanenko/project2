@@ -15,7 +15,7 @@ public class Main  {
         long l1 = 100_000_000;
         NumberFormat formatter = NumberFormat.getNumberInstance();
         String fromLong= formatter.format(l1);
-
+        //System.out.println(fromLong);
 
 
         SecondaryClass secondClassPoint =new SecondaryClass(11,20,5);
