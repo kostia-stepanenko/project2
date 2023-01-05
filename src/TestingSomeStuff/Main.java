@@ -27,6 +27,7 @@ public class Main {
         // sb1.append("why are you here");
         //sb1.append("?");
         //  System.out.println(sb1);
+        //sb1.delete(0,sb1.length());
 
 
         //Scanner use
