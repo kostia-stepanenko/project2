@@ -2,6 +2,8 @@ package LinkedIn_tests;
 
 public class Main {public static void main(String[] args) {
 
+
+
     Contact contactOne = new Contact("Sally",
             new PhoneNumber("2637263737"));
     Contact contactTwo = new Contact("Maggie Smith",

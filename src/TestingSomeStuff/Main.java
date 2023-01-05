@@ -1,5 +1,6 @@
 package TestingSomeStuff;
 
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,6 +8,15 @@ public class Main  {
 
     public static void main (String[] args)
     {
+        int x = 42;
+        String fromX=Integer.toString(x);
+        boolean b1 = false;
+        String fromBoolean=Boolean.toString(b1);
+        long l1 = 100_000_000;
+        NumberFormat formatter = NumberFormat.getNumberInstance();
+        String fromLong= formatter.format(l1);
+
+
 
         SecondaryClass secondClassPoint =new SecondaryClass(11,20,5);
         //assigning an enumerator
