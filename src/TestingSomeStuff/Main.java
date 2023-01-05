@@ -3,33 +3,41 @@ package TestingSomeStuff;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
-public class Main  {
+public class Main {
 
-    public static void main (String[] args)
-    {
+    public static void main(String[] args) {
 
-        //messing with values and to string
+        //messing with values and to_string
         int x = 42;
-        String fromX=Integer.toString(x);
+        String fromX = Integer.toString(x);
         boolean b1 = false;
-        String fromBoolean=Boolean.toString(b1);
+        String fromBoolean = Boolean.toString(b1);
         long l1 = 100_000_000;
         NumberFormat formatter = NumberFormat.getNumberInstance();
-        String fromLong= formatter.format(l1);
+        String fromLong = formatter.format(l1);
         //System.out.println(fromLong);
 
 
-
-
 //String builder fun
-       // StringBuilder sb1 = new StringBuilder("Hello there");
-       // sb1.append(",");
-       // sb1.append("why are you here");
-        //sb1.append("?");
-      //  System.out.println(sb1);
 
-        SecondaryClass secondClassPoint =new SecondaryClass(11,20,5);
+        // StringBuilder sb1 = new StringBuilder("Hello there");
+        // sb1.append(",");
+        // sb1.append("why are you here");
+        //sb1.append("?");
+        //  System.out.println(sb1);
+
+
+        //Scanner use
+
+        //Scanner sc1 = new Scanner(System.in);
+        // System.out.println("Input value");
+        // String input = sc1.nextLine();
+        //System.out.println(input);
+
+
+        SecondaryClass secondClassPoint = new SecondaryClass(11, 20, 5);
         //assigning an enumerator
         secondClassPoint.usedPlaneType = SecondaryClass.PlaneType.DIM_3D;
         System.out.println("old X");
@@ -49,13 +57,13 @@ public class Main  {
 
 // trying custom class array list
         List<SecondaryClass> points = new ArrayList<SecondaryClass>();
-        points.add(new SecondaryClass(10,10,10));
+        points.add(new SecondaryClass(10, 10, 10));
 
 
-        SecondaryClass p1 = new SecondaryClass(20,20,20);
+        SecondaryClass p1 = new SecondaryClass(20, 20, 20);
         points.add(p1);
 
-        for (SecondaryClass c : points){
+        for (SecondaryClass c : points) {
             System.out.println(c);
         }
     }
